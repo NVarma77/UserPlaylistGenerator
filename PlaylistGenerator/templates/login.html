@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            display: flex;                /* Added */
+            flex-direction: column;       /* Added */
+            align-items: center;  
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        
+        .forgot-password {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .forgot-password a {
+            text-decoration: none;
+            color: #1ed760;
+        }
+        .submit-btn {
+            padding: 10px 20px;
+            background-color: #1ed760;
+            justify-content: center;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            background-color: #1db954;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <button class="submit-btn" onclick="window.location.href='/login'">Authorize Spotify?</button>
+
+       
+    </div>
+
+</body>
+</html>
