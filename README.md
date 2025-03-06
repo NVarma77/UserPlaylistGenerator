@@ -70,13 +70,8 @@ Ensure the following dependencies are installed:
 - **User Profiles & Customization:** Allow users to save preferences, revisit past playlists, and fine-tune recommendation parameters.
 - **Enhanced UI/UX:** A more polished frontend with advanced animations and visualizations.
 
-## Contributors
-- **Your Name** - Developer
-- Open to contributions! Feel free to submit pull requests with improvements.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+## Notes
+- **Spotify API Key** and **OpenAI** API key stored in .env file, the user must obtain independently
 
 ---
-This README now provides a **more detailed** explanation of the project’s technologies, setup, and future possibilities. Let me know if you want further refinements!
 
